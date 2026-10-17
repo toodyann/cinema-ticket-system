@@ -1,0 +1,13 @@
+/vendor/
+
+.env
+.env.*
+!.env.example
+
+.phpunit.result.cache
+.phpunit.cache/
+
+.DS_Store
+.idea/
+.vscode/
+
