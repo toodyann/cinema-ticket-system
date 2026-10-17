@@ -13,4 +13,9 @@ class Calculator
     {
         return $x - $y;
     }
+
+    public function calculateTicketTotal(float $ticketPrice, int $quantity): float
+    {
+        return $ticketPrice * $quantity;
+    }
 }

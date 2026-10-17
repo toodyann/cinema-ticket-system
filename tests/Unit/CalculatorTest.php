@@ -20,4 +20,11 @@ class CalculatorTest extends TestCase
 
         $this->assertEquals(3, $calculator->subtract(5, 2));
     }
+
+    public function test_calculates_ticket_total(): void
+    {
+        $calculator = new Calculator;
+
+        $this->assertSame(37.5, $calculator->calculateTicketTotal(12.5, 3));
+    }
 }
